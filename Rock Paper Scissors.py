@@ -1,14 +1,14 @@
 import random
 
-def score_board(a,b):
+def score_board(user_count,computer_count):
 
-  print("Your score      : ",a)
-  print("Opponent's score: ",b)
+  print("Your score      : ",user_count)
+  print("Opponent's score: ",computer_count)
   
-  if(a>b):
+  if(user_count>computer_count):
     print("You Won!")
 
-  elif(a<b):
+  elif(user_count<computer_count):
     print("You Lost!")
 
   else:
